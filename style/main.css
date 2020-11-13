@@ -10,13 +10,15 @@
   box-sizing: border-box;/*limite é a borda da caixa*/
 }
 
+/*Base*/
 body {
   background: var(--preta);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
 header .container {
-  display: flex;/*forma de alinhar o display em tela*/
+  display: flex;/*forma como os elementos seram disponibilizados em tela*/
   flex-direction: row;/*dispensavel, pois é padrao*/
   align-items: center;
   justify-content: space-between;
@@ -37,4 +39,14 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+/**Filme principal*/
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+   url('/img/capa-gambito.jpg'); /*linear-gradient- faz com que a imgem ganhe 
+   um tom de transparencia escura*/
+  height: 400px;
+  background-size: cover;
 }
