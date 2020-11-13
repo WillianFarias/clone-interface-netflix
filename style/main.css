@@ -16,7 +16,10 @@ body {
 }
 
 header .container {
-
+  display: flex;/*forma de alinhar o display em tela*/
+  flex-direction: row;/*dispensavel, pois é padrao*/
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .logo {
