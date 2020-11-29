@@ -110,3 +110,10 @@ header nav a:hover {
   um tom de transparencia escura*/
   background-size: cover;
 }
+
+.logo-netflix {
+  max-width: 150px;
+  width: 100%;
+  max-height: 64px;
+  min-height: auto;
+}
