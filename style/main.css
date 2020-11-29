@@ -44,9 +44,6 @@ header nav a:hover {
 /**Filme principal*/
 .filme-principal {
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
-   url('/img/capa-gambito.jpg'); /*linear-gradient- faz com que a imgem ganhe 
-   um tom de transparencia escura*/
   height: 400px;
   background-size: cover;
   display: flex;
@@ -105,4 +102,11 @@ header nav a:hover {
 
 .carrossel-filmes {
   margin-top: 5px;
+}
+
+.principal {
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+  url('/img/capa-gambito.jpg'); /*linear-gradient- faz com que a imgem ganhe 
+  um tom de transparencia escura*/
+  background-size: cover;
 }
